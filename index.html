@@ -10,110 +10,104 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section>
-    <div class="hero">
-       <video autoplay loop muted plays-inline class="back" aria-setsize=>
+    <section class="hero">
+        <video autoplay loop muted plays-inline class="back">
             <source src="video.mp4" type="video/mp4">
         </video> 
         <nav>
             <h1 class="logo">LUCIFLIX</h1>
             <div class="menu">
-            <ul>
-                <select>
-                    <option>English</option>
-                    <option>Hindi</option>
-                </select>
-                <button type="button" class="btn btn-danger">sign in</button>
-            </ul>
-    </div>
+                <ul>
+                    <select>
+                        <option>English</option>
+                        <option>Hindi</option>
+                    </select>
+                    <button type="button" class="btn btn-danger">Sign In</button>
+                </ul>
+            </div>
         </nav>
         <div class="content">
-            <h1>Ultimate Movies,TV shows & more</h1>
-            <h5>Watch any time cancel any time</h5>
+            <h1>Ultimate Movies, TV Shows & More</h1>
+            <h5>Watch any time, cancel any time</h5>
             <h6>Ready to watch? Enter your email to create or restart your membership.</h6>
-            <!--<a href="#">Explore</a>-->
-            <div class="dd"><input class="box" type="email" placeholder="email address" size="40" style="padding: 4px;"> <button type="button" class="btn btn-danger">get started ></button></div>
+            <div class="dd">
+                <input class="box" type="email" placeholder="Email address">
+                <button type="button" class="btn btn-danger">Get Started ></button>
+            </div>
         </div>
     </section>
 
-
-
     <section class="about">
-        <div><img src="net.jpg" height="250" weight="270"></div>
+        <div class="img-container">
+            <img src="net.jpg" alt="Enjoy on TV">
+        </div>
         <div class="enjoy">
-            <h1>Enjoy Your Tv</h1>
+            <h1>Enjoy Your TV</h1>
             <h5>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h5>
         </div>
     </section>
-
-
 
     <section class="about">
         <div class="enjoy">
             <h1>Download your shows to watch offline</h1>
             <h5>Save your favourites easily and always have something to watch</h5>
         </div>
-        <div><img src="strf.jpg"  height="290" weight="270"></div>
+        <div class="img-container">
+            <img src="strf.jpg" alt="Download shows">
+        </div>
     </section>
 
-
-
     <section class="about">
-        <div><img src="child.png" height="290" weight="270"></div>
+        <div class="img-container">
+            <img src="child.png" alt="Create profiles for kids">
+        </div>
         <div class="enjoy">
             <h1>Create profiles for kids</h1>
             <h5>Send children on adventures with their favourite characters in a space made just for them—free with your membership.</h5>
         </div>
     </section>
 
-
     <section class="questions">
         <h1>Frequently Asked Questions</h1>
-        <div>
-            <ul class="qustn">
-                <li>
-
-                <input type="radio" name="qustn" id="first" >
-                <label for="first">what is Luciflix?</label>
+        <ul class="qustn">
+            <li>
+                <input type="radio" name="qustn" id="first">
+                <label for="first">What is Luciflix?</label>
                 <div class="content">
-                    <p>luciflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.</p>
+                    <p>Luciflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.</p>
                 </div>
-
-                </li>
-                <li>
-                    
-                    <input type="radio" name="qustn" id="second">
-                    <label for="second">How much does Luciflix cost?</label>
-                    <div class="content">
-                        <p>Watch luciflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹149 to ₹649 a month. No extra costs, no contracts.</p>
-                    </div>
-    
-                    </li>
-                    <li>
-                    
-                        <input type="radio" name="qustn" id="third">
-                        <label for="third">is Luciflix good for kids?</label>
-                        <div class="content">
-                            <p>The luciflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space</p>
-                        </div>
-        
-                        </li>
-                        <li>
-                    
-                            <input type="radio" name="qustn" id="forth">
-                            <label for="forth">How do i cancel?</label>
-                            <div class="content">
-                                <p> luciflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime./p>
-                            </div>
-            
-                            </li>
-            </ul>
-        </div>
+            </li>
+            <li>
+                <input type="radio" name="qustn" id="second">
+                <label for="second">How much does Luciflix cost?</label>
+                <div class="content">
+                    <p>Watch Luciflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹149 to ₹649 a month. No extra costs, no contracts.</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="qustn" id="third">
+                <label for="third">Is Luciflix good for kids?</label>
+                <div class="content">
+                    <p>The Luciflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space.</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="qustn" id="forth">
+                <label for="forth">How do I cancel?</label>
+                <div class="content">
+                    <p>Luciflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p>
+                </div>
+            </li>
+        </ul>
         <h3 class="ready">Ready to watch? Enter your email to create or restart your membership.</h3>
-        <div class="dd"><input class="box" type="email" placeholder="email address" size="40" style="padding: 4px;"> <button type="button" class="btn btn-danger">get started ></button></div>
+        <div class="dd">
+            <input class="box" type="email" placeholder="Email address">
+            <button type="button" class="btn btn-danger">Get Started ></button>
+        </div>
     </section>
+
     <footer>
         <p>Copyright © 2024 Luciflix</p>
-      </footer>
+    </footer>
 </body>
 </html>
